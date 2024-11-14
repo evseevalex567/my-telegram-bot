@@ -3,7 +3,7 @@ const token = process.env.BOT_TOKEN;
 const TelegramBot = require('node-telegram-bot-api');
 const bot = new TelegramBot(token, { polling: true });
 
-const webAppUrl = 'https://sensational-hotteok-80249a.netlify.app/';
+const webAppUrl = 'https://sensational-parfait-d14e62.netlify.app/';
 
 bot.onText(/\/start/, (msg) => {
   const chatId = msg.chat.id;
